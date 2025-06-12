@@ -25,25 +25,25 @@ For any inquiries, please contact me at liucheng.july@outlook.com.
 ## Documentation Structure
 | Directory/File         | Description                                               |
 |------------------------|-----------------------------------------------------------|
-| `README.md`             | High-level introduction, project purpose, getting started, and documentation structure overview. |
-| `LICENSE`                | Code License for the code within these Jupyter Notebooks for purpose of evaluation by potential employers. |
-| `LICENSE-NON-CODE`       | License for the ideas, documentation, and explanations within these Jupyter Notebooks  |
+| [`README.md`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/README.md)             | High-level introduction, project purpose, getting started, and documentation structure overview. |
+| [`LICENSE`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/LICENSE)                | Code License for the code within these Jupyter Notebooks for purpose of evaluation by potential employers. |
+| [`LICENSE-NON-CODE`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/LICENSE-NON-CODE)       | License for the ideas, documentation, and explanations within these Jupyter Notebooks  |
 | `code/`                 | Jupyter Notebooks of my data projects |
-| `code/airline-customer-satisfaction-summary.ipynb`  | Jupyter Notebook of Summary|
-| `code/airline-customer-satisfaction-prediction-eda.ipynb`  | Jupyter Notebook of EDA|
-| `code/airline-customer-satisfaction-logistic.ipynb`  | Jupyter Notebook of logistic regression model|
-| `code/airline-customer-satisfaction-decision-tree.ipynb`  | Jupyter Notebook of decision tree model|
-| `code/airline-customer-satisfaction-naive-bayes.ipynb`  | Jupyter Notebook of naive bayes model|
-| `code/airline-customer-satisfaction-random-forest.ipynb`  | Jupyter Notebook of random forest model|
-| `code/airline-customer-satisfaction-xgboost.ipynb`  | Jupyter Notebook of xgboost model|
-| `code/airline_customer_satisfaction_common.py`  | Script of common functions(e.g. data transform)|
+| [`code/airline-customer-satisfaction-summary.ipynb`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/code/airline-customer-satisfaction-summary.ipynb) | Jupyter Notebook of Summary|
+| [`code/airline-customer-satisfaction-prediction-eda.ipynb`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/code/airline-customer-satisfaction-prediction-eda.ipynb)  | Jupyter Notebook of EDA|
+| [`code/airline-customer-satisfaction-logistic.ipynb`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/code/airline-customer-satisfaction-logistic.ipynb)  | Jupyter Notebook of logistic regression model|
+| [`code/airline-customer-satisfaction-decision-tree.ipynb`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/code/airline-customer-satisfaction-decision-tree.ipynb)  | Jupyter Notebook of decision tree model|
+| [`code/airline-customer-satisfaction-naive-bayes.ipynb`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/code/airline-customer-satisfaction-naive-bayes.ipynb)  | Jupyter Notebook of naive bayes model|
+| [`code/airline-customer-satisfaction-random-forest.ipynb`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/code/airline-customer-satisfaction-random-forest.ipynb)  | Jupyter Notebook of random forest model|
+| [`code/airline-customer-satisfaction-xgboost.ipynb`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/code/airline-customer-satisfaction-xgboost.ipynb)  | Jupyter Notebook of xgboost model|
+| [`code/airline_customer_satisfaction_common.py`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/code/airline_customer_satisfaction_common.py)  | Script of common functions(e.g. data transform)|
 | `pickle/`             | Pickle files of my data projects          |
-| `pickle/dt_pickle.zip` | Pickle files of decision tree          |
-| `pickle/lgr_pickle.zip` | Pickle files of logistic regression |
-| `pickle/rf_pickle.zip`  | Pickle files of random forest     |
-| `pickle/xgb_pickle.zip` | Pickle files of XGBoost and df_depth_leaves.csv |
+| [`pickle/dt_pickle.zip`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/pickle/dt_pickle.zip) | Pickle files of decision tree          |
+| [`pickle/lgr_pickle.zip`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/pickle/lgr_pickle.zip) | Pickle files of logistic regression |
+| [`pickle/rf_pickle.zip`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/pickle/rf_pickle.zip)  | Pickle files of random forest     |
+| [`pickle/xgb_pickle.zip`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/pickle/xgb_pickle.zip) | Pickle files of XGBoost and df_depth_leaves.csv |
 | `data/`             | data set of my data projects                        |
-| `data/Invistico_Airline.csv`| Customer feedback for Airlines. (dataset from Google Advanced Data Analytics Certificate by Coursera)|
+| [`data/Invistico_Airline.csv`](https://github.com/panda-july/Airline-Customer-Satisfaction-Prediction/blob/main/data/Invistico_Airline.csv)| Customer feedback for Airlines. (dataset from Google Advanced Data Analytics Certificate by Coursera)|
 
 
 
@@ -154,7 +154,7 @@ s or one segment, direct or with stops)
 
 * This dataset is not representative, to get a more reliable result please take a representative sample.
 * Potential issues and further invetigation points
-    * Extra information like Flight No, International/domestic flights, passenger number, departure and arrival time, departure and arrival airports, departure and arrival gates, transit airports, direct or with stops, layover duration, aircraft type, aircraft layout(e.g. seats, amenities), unaccompanied minor or not, with children or not, checked bag number, checked bag type(e.g. suitcase, wheelchair), carry on bag number, any dietary restrictions, available languages, used online support or not, online support channel, ticket booking approach(e.g. airline site, travel agency,etc) could get more accurate result.
+    * Extra information like Flight No, International/domestic flights, passenger number, departure and arrival time, departure and arrival airports, departure and arrival gates, transit airports, direct or with stops, layover duration, aircraft type, aircraft layout(e.g. seats, amenities), unaccompanied minor or not, with children or not, checked bag number, checked bag type(e.g. suitcase, wheelchair), carry on bag number, any dietary restrictions, available languages, used online support or not, online support channel, ticket booking approach(e.g. airline site, travel agency,etc) will help to get a more accurate result.
 
 |Rating Items|Low Score Groups|Potential Issues|Further invetigation points| 
 |:-          |:-              |:-              |:-                         |
